@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,500;1,700&family=REM:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'REM', sans-serif;
+}
+
+/**--LOGIN PROPERTIES--**/
+main{
+    background: #CCE4FF;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-page{
+   
+    background: white;
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: -17px 26px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+}
+
+.form-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 5px;
+    color: #1E1F6F;
+}
+.form-logo img{
+    height: 10vh;
+    width: 10vh;
+}
+
+.login-form{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    font-size: 10px;
+    
+
+}
+
+/**--LOGIN INPUT--**/
+.form-input input {
+    border-color: #1E1F6F;
+    
+    border-radius: 5px;
+}
+
+.username input, .password input{
+    height: 8vh;
+    width: 40vh;
+
+ 
+}
+
+/**--LOGIN BUTTON--**/
+.login-form button{
+    
+    height: 8%;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    background: #1E1F6F;
+    color: white;
+}
+
+
+
+.login-right{
+    background: #CCE4FF;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.login-right img{
+    height: 50vh;
+}
+
+
+
+
+
+
+/**--CIRCLE PROPERTIES--**/
+.circle1, .circle2, .circle3, .circle4, .circle5, .circle6 {
+    position: absolute;
+    background: #1E1F6F;
+    
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.circle1{
+    top: -50px;
+    left: -50px;
+    width: 30%;
+    height: 30%;
+}
+.circle2{
+    top: 50px;
+    left: -120px;
+    width: 20%;
+    height: 40%;
+}
+.circle3{
+    bottom: -10px;
+    right: -30px;
+    width: 20%;
+    height: 50%;
+}
+
+.circle4{
+    bottom: 150px;
+    right: -30px;
+    width: 20%;
+    height: 50%;
+}
+
+.circle5{
+    bottom: 10px;
+    right: 150px;
+    width: 20%;
+    height: 50%;
+}
+
+.circle6{
+    top: 10px;
+    right: 500px;
+    width: 10%;
+    height: 20%;
+    
+}
